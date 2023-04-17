@@ -11,6 +11,8 @@ export class App extends Component {
     filter: '',
   };
 
+  
+
   filterContacts = () => {
     const { contacts, filter } = this.state;
     const filteredContacts = contacts.filter(contact =>
